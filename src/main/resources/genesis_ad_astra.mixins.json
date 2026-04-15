@@ -12,6 +12,7 @@
     "GenesisModMixin",
     "GravityApiMixin",
     "OxygenApiMixin",
+    "SolarPanelBlockEntityMixin",
     "TemperatureApiMixin"
   ],
   "injectors": {
