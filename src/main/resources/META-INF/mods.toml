@@ -4,39 +4,31 @@ loaderVersion = "[47,)"
 license = "MIT"
 
 [[mods]]
-modId = "genesis_ad_astra"
-version = "${version}"
-displayName = "Genesis: Ad Astra"
-authors = "G_Mungus"
+modId = "gam"
+version = "1.20.1-0.1.0"
+displayName = "Genesis: Addon"
+authors = "MrEskimo"
 description = '''
-Integrates Ad Astra into Genesis
+Adds more planets to genesis
 '''
-logoFile = "assets/genesis_ad_astra/icon.png"
 
-[[dependencies.genesis_ad_astra]]
+[[dependencies.gam]]
 modId = "forge"
 mandatory = true
 versionRange = "[47,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.genesis_ad_astra]]
+[[dependencies.gam]]
 modId = "minecraft"
 mandatory = true
 versionRange = "[1.20.1,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.genesis_ad_astra]]
+[[dependencies.gam]]
 modId = "genesis"
 mandatory = true
-versionRange = "[1.20.1-0.7.0,)"
-ordering = "NONE"
-side = "BOTH"
-
-[[dependencies.genesis_ad_astra]]
-modId = "ad_astra"
-mandatory = true
-versionRange = "[1.15.0,)"
+versionRange = "[1.20.1-0.6.0,)"
 ordering = "NONE"
 side = "BOTH"

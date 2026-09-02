@@ -16,11 +16,11 @@ configurations {
     }
 }
 
-group = project.maven_group
-version = project.mod_version
+version = mod_version
+group = mod_group_id
 
 base {
-    archivesName = project.archives_name
+    archivesName = mod_id
 }
 
 legacyForge {
@@ -51,15 +51,9 @@ legacyForge {
     }
 }
 
-mixin {
-    add sourceSets.main, "mixins.shipwrights.genesis_ad_astra.refmap.json"
-    config 'genesis_ad_astra.mixins.json' // This can be done for multiple configs
-}
 
 jar {
-    manifest.attributes([
-            "MixinConfigs": "genesis_ad_astra.mixins.json"
-    ])
+    manifest.attributes
 }
 
 repositories {
@@ -121,7 +115,7 @@ dependencies {
     implementation "com.fasterxml.jackson.core:jackson-annotations:2.13.3"
     compileOnly("org.joml:joml:1.10.4")
     compileOnly("org.joml:joml-primitives:1.10.0")
-    modApi("thedarkcolour:kotlinforforge:4.11.0")
+    modApi("thedarkcolour:kotlinforforge:4.12.0")
     // endregion
 
     modImplementation("maven.modrinth:vlib:1.20.1-0.1.0+forge")
@@ -148,10 +142,6 @@ dependencies {
     modRuntimeOnly("maven.modrinth:fusion-connected-textures:1.2.12-forge-mc1.20.1")
     modRuntimeOnly("maven.modrinth:zpl:1.20.1-1.5.0")
 
-    modImplementation("maven.modrinth:ad-astra:1.15.20")
-    modImplementation("maven.modrinth:resourceful-lib:2.1.29")
-    modImplementation("maven.modrinth:botarium:2.3.4")
-    modRuntimeOnly("maven.modrinth:resourceful-config:DERs8u7v")
     modImplementation("shipwrights.genesis:genesis:1.20.1-0.6.0")
 
 }
