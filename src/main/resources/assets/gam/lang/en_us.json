@@ -1,0 +1,12 @@
+{
+  "block.gam.ceres_sand": "Ceres Sand",
+  "block.gam.ceres_stone": "Ceres Stone",
+  "block.gam.ceres_rocky_sand": "Ceres Rocky Sand",
+  "block.gam.ceres_light_rocky_sand": "Ceres Light Rocky Sand",
+  "block.gam.ceres_salt_deposit": "Ceres Salt Deposit",
+  "block.gam.ceres_light_sand": "Ceres Light Sand",
+
+  "block.gam.icy_dust": "Icy Dust",
+
+  "itemGroup.gam.genesis_solar_expanse_tab": "Solar Expanse"
+}

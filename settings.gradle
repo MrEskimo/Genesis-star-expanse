@@ -7,4 +7,4 @@ pluginManagement {
     }
 }
 
-rootProject.name = 'genesis_ad_astra'
+rootProject.name = 'gam'

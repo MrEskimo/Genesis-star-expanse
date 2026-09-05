@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "gam:block/ceres_light_rocky_sand"
+  }
+}

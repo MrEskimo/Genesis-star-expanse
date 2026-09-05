@@ -23,11 +23,21 @@ public class GAMBlocks {
     public static final RegistryObject<Block> CERES_STONE = registerBlock("ceres_stone",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE)));
 
-    public static final RegistryObject<Block> CERES_WAVY_SAND = registerBlock("ceres__wavy_sand",
+    public static final RegistryObject<Block> CERES_SALT_DEPOSIT = registerBlock("ceres_salt_deposit",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE)));
+
+    public static final RegistryObject<Block> CERES_ROCKY_SAND = registerBlock("ceres_rocky_sand",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GRAVEL)));
+
+    public static final RegistryObject<Block> CERES_LIGHT_SAND = registerBlock("ceres_light_sand",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.SAND)));
 
-    public static final RegistryObject<Block> CERES_DARK_SAND = registerBlock("ceres_dark_sand",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.SAND)));
+    public static final RegistryObject<Block> CERES_LIGHT_ROCKY_SAND = registerBlock("ceres_light_rocky_sand",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GRAVEL)));
+
+
+    public static final RegistryObject<Block> ICY_DUST = registerBlock("icy_dust",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GRAVEL)));
 
 
 

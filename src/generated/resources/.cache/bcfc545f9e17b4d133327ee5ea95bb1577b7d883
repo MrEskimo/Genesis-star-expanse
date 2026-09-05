@@ -1,0 +1,5 @@
+// 1.20.1	2026-09-05T12:25:08.5540461	Tags for minecraft:block mod id gam
+a3dd592800e23751d34126354df86f6fea67efd6 data/minecraft/tags/blocks/mineable/pickaxe.json
+0dcdf0d0c87187dd1cfb35af07f031514d2f9104 data/minecraft/tags/blocks/mineable/shovel.json
+facc91bc762306d3dbf388f1e24fdebbbbb64358 data/minecraft/tags/blocks/needs_iron_tool.json
+a3dd592800e23751d34126354df86f6fea67efd6 data/minecraft/tags/blocks/overworld_carver_replaceables.json

@@ -12,6 +12,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.mreskimo.gam.blocks.GAMBlocks;
+import net.mreskimo.gam.item.GAMCreativeTab;
 import net.mreskimo.gam.item.GAMItems;
 import org.slf4j.Logger;
 
@@ -29,6 +30,7 @@ public class GAM
 
         GAMBlocks.register(modEventBus);
         GAMItems.register(modEventBus);
+        GAMCreativeTab.CREATIVE_MODE_TABS.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

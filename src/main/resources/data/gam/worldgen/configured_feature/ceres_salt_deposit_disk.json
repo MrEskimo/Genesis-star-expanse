@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:disk",
+  "config": {
+    "state_provider": {
+      "fallback": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "gam:ceres_sand"
+        }
+      },
+      "rules": [
+        {
+          "if_true": {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              0,
+              -1,
+              0
+            ],
+            "blocks": [
+              "gam:ceres_rocky_sand",
+              "gam:ceres_sand"
+            ]
+          },
+          "then": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "gam:ceres_salt_deposit"
+            }
+          }
+        }
+      ]
+    },
+    "radius": 6,
+    "half_height": 3,
+    "target": {
+      "type": "minecraft:matching_blocks",
+      "blocks": [
+        "gam:ceres_rocky_sand",
+        "gam:ceres_sand"
+      ]
+    }
+  }
+}
