@@ -1,5 +1,10 @@
 {
   "values": [
-    "gam:ceres_stone"
+    "gam:ceres_stone",
+    "gam:ceres_sand",
+    "gam:ceres_rocky_sand",
+    "gam:ceres_light_rocky_sand",
+    "gam:ceres_light_sand",
+    "gam:ceres_salt_deposit"
   ]
 }

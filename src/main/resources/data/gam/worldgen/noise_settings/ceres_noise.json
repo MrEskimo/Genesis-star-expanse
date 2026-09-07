@@ -77,13 +77,13 @@
             "argument2": {
               "type": "minecraft:noise",
               "noise": "minecraft:continentalness",
-              "xz_scale": 0.12,
-              "y_scale": 0.0
+              "xz_scale": 0.24,
+              "y_scale": 0.24
             }
           },
           "argument2": {
             "type": "genesis:multi_crater",
-            "scales": [20.0, 24.0, 48, 64.0]
+            "scales": [24.0, 48, 64.0, -24.0, -64.0]
           }
         },
         "argument2": {
