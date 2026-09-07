@@ -1,5 +1,7 @@
 {
   "values": [
-    "gam:ceres_stone"
+    "gam:ceres_stone",
+    "gam:phobos_stone",
+    "gam:deimos_stone"
   ]
 }

@@ -23,6 +23,9 @@ public class GAMCreativeTab {
                         output.accept(GAMBlocks.CERES_ROCKY_SAND.get().asItem().getDefaultInstance());
                         output.accept(GAMBlocks.CERES_LIGHT_SAND.get().asItem().getDefaultInstance());
                         output.accept(GAMBlocks.ICY_DUST.get().asItem().getDefaultInstance());
+
+                        output.accept(GAMBlocks.PHOBOS_STONE.get().asItem().getDefaultInstance());
+                        output.accept(GAMBlocks.DEIMOS_STONE.get().asItem().getDefaultInstance());
                     })
                     .build());
 

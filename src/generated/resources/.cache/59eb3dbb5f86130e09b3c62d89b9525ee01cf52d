@@ -1,8 +1,10 @@
-// 1.20.1	2026-09-05T11:57:41.8539357	Loot Tables
+// 1.20.1	2026-09-07T09:58:47.4398527	Loot Tables
 5993e6072777f5cdfe82821c6bfb3864838f33b2 data/gam/loot_tables/blocks/ceres_light_rocky_sand.json
 2e5c47ab524f69845581915b46c9517dd0dbcb36 data/gam/loot_tables/blocks/ceres_light_sand.json
 ec26cd4b423a3ec0af03863f37be0f3936c68eb6 data/gam/loot_tables/blocks/ceres_rocky_sand.json
 6801e0a497819e43df4441f4f2bfb136e3992118 data/gam/loot_tables/blocks/ceres_salt_deposit.json
 f36edac0ea991f97ccd4bdc52218257f4c73e892 data/gam/loot_tables/blocks/ceres_sand.json
 d1ca5b59fa9a96ebc5c9fbbda76850ec70615d6d data/gam/loot_tables/blocks/ceres_stone.json
+a68d6e5786f70b1d03fab63b419804a0ffd8c7c8 data/gam/loot_tables/blocks/deimos_stone.json
 cc379b3c4e1ceb2e238c6f8a8e6d0cb873a5ff2a data/gam/loot_tables/blocks/icy_dust.json
+783450544e9a352111d379e176123bc4c9742e40 data/gam/loot_tables/blocks/phobos_stone.json

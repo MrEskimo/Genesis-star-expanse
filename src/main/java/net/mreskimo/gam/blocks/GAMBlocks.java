@@ -39,6 +39,10 @@ public class GAMBlocks {
     public static final RegistryObject<Block> ICY_DUST = registerBlock("icy_dust",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.GRAVEL)));
 
+    public static final RegistryObject<Block> PHOBOS_STONE = registerBlock("phobos_stone",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
+    public static final RegistryObject<Block> DEIMOS_STONE = registerBlock("deimos_stone",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
