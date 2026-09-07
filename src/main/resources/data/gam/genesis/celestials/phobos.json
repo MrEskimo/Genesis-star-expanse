@@ -1,0 +1,26 @@
+{
+  "type": "genesis:body",
+  "size": 5,
+  //1 = 9.8 1.62 = 0.162 0,28 = 0.028
+  "gravity": 0.028,
+  "transformProvider": {
+    "type": "genesis:orbiting",
+    "parentID": "gam:m",
+    "seed": 5,
+    //15000 = 1 AU irl = 150 000 000
+    "orbitDistance": 63,
+    //4600000 = 191 == year
+    "orbitTime": 504000,
+    //24000 = 20 min
+    "dayLength": 12000
+  },
+  "properties": {
+    "atmosphere": {
+      "density": 0,
+      "thickness": 0,
+      "precipitation": false,
+      "isBreathable": false,
+      "color": { "type": "genesis:rgb", "r": 5, "g": 5, "b": 10 }
+    }
+  }
+}

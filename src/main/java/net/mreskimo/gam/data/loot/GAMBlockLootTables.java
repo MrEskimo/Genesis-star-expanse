@@ -22,6 +22,8 @@ public class GAMBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(GAMBlocks.CERES_SALT_DEPOSIT.get());
         this.dropSelf(GAMBlocks.CERES_LIGHT_ROCKY_SAND.get());
         this.dropSelf(GAMBlocks.ICY_DUST.get());
+        this.dropSelf(GAMBlocks.PHOBOS_STONE.get());
+        this.dropSelf(GAMBlocks.DEIMOS_STONE.get());
     }
 
     @Override

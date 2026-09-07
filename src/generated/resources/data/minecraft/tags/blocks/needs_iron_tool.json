@@ -3,6 +3,8 @@
     "gam:ceres_light_sand",
     "gam:ceres_sand",
     "gam:ceres_rocky_sand",
+    "gam:deimos_stone",
+    "gam:phobos_stone",
     "gam:ceres_stone"
   ]
 }
