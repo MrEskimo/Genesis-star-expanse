@@ -2,7 +2,7 @@
   "type": "gam:ceres_dimension_type",
   "generator": {
     "type": "minecraft:noise",
-    "settings": "gam:ceres_noise",
+    "settings": "gam:dying_world_noise",
     "biome_source": {
       "type": "minecraft:multi_noise",
       "biomes": [

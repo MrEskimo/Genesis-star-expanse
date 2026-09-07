@@ -77,13 +77,13 @@
             "argument2": {
               "type": "minecraft:noise",
               "noise": "minecraft:continentalness",
-              "xz_scale": 0.12,
+              "xz_scale": -10.12,
               "y_scale": 0.0
             }
           },
           "argument2": {
             "type": "genesis:multi_crater",
-            "scales": [48.0, 64.0, 128.0, 256.0, 512.0]
+            "scales": [-48.0, -64.0, -128.0, -256.0, -512.0]
           }
         },
         "argument2": {
@@ -94,8 +94,8 @@
             "argument2": {
               "type": "minecraft:noise",
               "noise": "minecraft:erosion",
-              "xz_scale": 0.18,
-              "y_scale": 0.0
+              "xz_scale": 0.2,
+              "y_scale": 10.0
             }
           },
           "argument2": {
@@ -104,7 +104,7 @@
             "argument2": {
               "type": "minecraft:noise",
               "noise": "minecraft:ridge",
-              "xz_scale": 0.35,
+              "xz_scale": 10.0,
               "y_scale": 0.0
             }
           }
@@ -284,7 +284,7 @@
         "then_run": {
           "type": "minecraft:block",
           "result_state": {
-            "Name": "gam:deimos_stone"
+            "Name": "minecraft:grass_block"
           }
         }
       },
@@ -309,7 +309,7 @@
           "then_run": {
             "type": "minecraft:block",
             "result_state": {
-              "Name": "gam:deimos_stone"
+              "Name": "minecraft:dirt"
             }
           }
         }
@@ -323,6 +323,6 @@
     "size_vertical": 2
   },
   "default_block": {
-    "Name": "gam:deimos_stone"
+    "Name": "minecraft:stone"
   }
 }
