@@ -38,7 +38,12 @@ public class GAMBlockTagGenerator extends BlockTagsProvider {
                         GAMBlocks.DEIMOS_STONE.get());
 
         this.tag(BlockTags.OVERWORLD_CARVER_REPLACEABLES)
-                .add(GAMBlocks.CERES_STONE.get());
+                .add(GAMBlocks.CERES_STONE.get(),
+                        GAMBlocks.CERES_SAND.get(),
+                        GAMBlocks.CERES_ROCKY_SAND.get(),
+                        GAMBlocks.CERES_LIGHT_ROCKY_SAND.get(),
+                        GAMBlocks.CERES_LIGHT_SAND.get(),
+                        GAMBlocks.CERES_SALT_DEPOSIT.get());
 
 
     }
